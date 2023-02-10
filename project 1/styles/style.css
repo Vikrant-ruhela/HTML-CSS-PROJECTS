@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #ebeffb;
+}
+
+nav {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.logotitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.logotitle:hover {
+  color: rgb(90, 230, 216);
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: rgb(86, 206, 206);
+}
+
+input {
+  border-radius: 4%;
+  padding: 5px 40px 5px 5px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 10px;
+  color: black;
+  border: 1px solid rgb(207, 189, 189);
+}
+
+input:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 255, 229);
+}
+
+button {
+  padding: 4px 10px;
+  background-color: rgb(18, 155, 155);
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 1px solid rgb(207, 189, 189);
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(18, 155, 155);
+  border: 1px solid rgb(18, 155, 155);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-left {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-right {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 22px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+h1 span {
+  background-color: #dfdfe0;
+}
+
+span {
+  color: rgb(18, 155, 155);
+}
+
+svg {
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.leftfooter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rightfooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  align-items: center;
+}
