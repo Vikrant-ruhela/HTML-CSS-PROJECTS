@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0f0f10;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 16% 4% 14%;
+}
+
+nav .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+nav .list ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 13px 35px;
+  border-radius: 11px;
+  border: 2px solid #000000;
+  background-color: #1e1e21;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+img[alt="mainimage"] {
+  width: 70%;
+}
+
+.section1-left img {
+  position: relative;
+  top: -220px;
+  right: 16px;
+}
+
+.section1-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+img[alt="onear"] {
+  position: relative;
+  left: 100px;
+  width: 80%;
+}
+
+.section1-right h1 {
+  font-size: 3.3rem;
+  margin: 3% 3% 3% 0%;
+}
+
+.section1-right h2 {
+  font-weight: 300;
+}
+.section1-right p {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin: 5% 0% 5% 0%;
+  line-height: 22px;
+}
+.section1-right button {
+  border: 1px solid #1e1e21;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+img[alt="headlogo"] {
+  margin: 5%;
+}
+
+.specs {
+  display: flex;
+}
+
+.spec1 {
+  position: relative;
+  left: 43px;
+  bottom: 27px;
+  margin: 3%;
+}
+
+.spec2 {
+  position: relative;
+  right: 40px;
+  margin: 13%;
+}
+
+.spec3 {
+  position: relative;
+  right: 39px;
+  top: 18px;
+}
+
+.spec4 {
+  position: relative;
+  left: 18px;
+  top: 41px;
+  margin: 3%;
+}
+
+.specs p {
+  font-size: 13px;
+}
+
+.specs .sub-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #bdc0c2;
+}
+
+.case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bdc0c2;
+  line-height: 30px;
+  font-weight: 200;
+  font-size: 14px;
+  gap: 90px;
+}
+
+.sound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  background-color: #181a1b;
+  padding: 40px 130px;
+  border-radius: 17px;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.sound .left-sound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sound .left-sound p {
+  font-size: 14px;
+  color: #bdc0c2;
+}
+
+.sound .left-sound button {
+  background-color: black;
+  padding: 8px 21px;
+}
+
+img[alt="ProductLogo"] {
+  width: 15%;
+  height: 10%;
+  margin: 9%;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 142px;
+  margin-bottom: 9%;
+}
+
+.products .above {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.products .below {
+  display: flex;
+  margin-top: 9%;
+  width: 44.2%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
+
+.products .card {
+  background-color: #181a1b;
+  width: 55%;
+  height: 10%;
+  border-radius: 11px;
+  display: flex;
+  padding-bottom: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products .card p {
+  color: #bdc0c2;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+img[alt="product-img"] {
+  width: 57%;
+  position: relative;
+  bottom: 43px;
+}
+
+.products .card .card-below {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+img[alt="shoppingbag"] {
+  background-color: #000000;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.footlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.footlinks h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 9%;
+}
+
+.footlinks p {
+  font-size: 12px;
+  font-weight: 200;
+  color: #bdc0c2;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+img[alt="social-logo"] {
+  width: 8%;
+  margin: 2%;
+}
+
+.email .emailsectionup {
+  display: flex;
+  background-color: #1e1e21;
+  border-radius: 12px;
+  padding-right: 18px;
+  padding-left: 11px;
+}
+
+.email .emailsectionup input {
+  background-color: #1e1e21;
+  border: 1px solid #1e1e21;
+}
+
+.email .emailsectionup button {
+  background-color: #0f0f10;
+  border: 1px solid #0f0f10;
+  margin: 2%;
+}
