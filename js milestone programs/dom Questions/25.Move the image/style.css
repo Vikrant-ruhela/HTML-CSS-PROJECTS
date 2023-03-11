@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(galaxy-night-landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img[alt="img"] {
+  width: 200px;
+  position: absolute;
+}
+
+img[alt="arrow"] {
+  width: 170px;
+  position: fixed;
+  right: 51px;
+  bottom: 11px;
+}
