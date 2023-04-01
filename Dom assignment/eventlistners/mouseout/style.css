@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 40px;
+  background-color: green;
+  color: #fff;
+  font-size: 2rem;
+  border: 2px solid green;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 2px solid green;
+  color: green;
+}
